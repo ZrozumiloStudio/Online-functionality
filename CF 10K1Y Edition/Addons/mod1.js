@@ -1,4 +1,4 @@
-function loadMod() {
+function registerMod() {
     console.log("Test Mod Loaded!");
 
     const btn = document.createElement('button');
