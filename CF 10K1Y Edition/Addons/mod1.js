@@ -1,4 +1,4 @@
-(function registerMod(game){
+function registerMod() {
     const btn = document.createElement('button');
     btn.textContent = 'test';
 
@@ -22,5 +22,5 @@
     document.body.appendChild(btn);
 
     console.log('[TestButton Mod] test');
-})(window.ZrozumiloEngine || {});
+}
 
