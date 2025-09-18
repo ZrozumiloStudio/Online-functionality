@@ -1,10 +1,8 @@
-(function(){
-    const btn = document.createElement('button');
-    btn.textContent = 'TEST';
-    btn.style.position = 'fixed';
-    btn.style.top = '20px';
-    btn.style.left = '20px';
-    btn.style.zIndex = '9999';
-    btn.onclick = ()=>alert('Test button clicked!');
-    document.body.appendChild(btn);
-})();
+function registerMod(game) {
+    console.log("Mod loaded: My Cool Mod");
+    
+    game.player.speed *= 2;
+    
+    const superMedkit = new game.Item("Super Medkit", 100, p => { p.hp += 100 });
+    game.player.inventory.addItem(superMedkit);
+}
