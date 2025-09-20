@@ -1,5 +1,5 @@
 function registerMod() {
-    console.log("Test Mod Loaded!");
+    console.log("Test addon loaded!");
 
     const btn = document.createElement('button');
     btn.textContent = "Test";
