@@ -4,7 +4,7 @@ function registerMod() {
     document.body.style.backgroundColor = "#0a0a0a";
     canvas.style.filter = "grayscale(100%) contrast(180%) brightness(1)";
     canvas.style.background = "radial-gradient(circle, #1a1a1a 0%, #000000 100%)";
-    canvas.style.* = "grayscale(100%) contrast(180%) brightness(1)";
+    *.style.filter = "grayscale(100%) contrast(180%) brightness(1)";
 
     setInterval(() => {
         const r = Math.floor(Math.random() * 50) + 50;
