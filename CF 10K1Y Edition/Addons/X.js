@@ -47,8 +47,8 @@ function registerMod() {
     drawSprites = function() {
         origDrawSprites();
         ctx.save();
-        ctx.globalAlpha = 0.7 + Math.sin(Date.now()/200) * 0.3;
-        ctx.drawImage(XImage, X.x, X.y, 80, 80);
+        ctx.globalAlpha = 0.9;
+        ctx.drawImage(XImage, X.x, X.y, 200, 200);
         ctx.restore();
     };
 
